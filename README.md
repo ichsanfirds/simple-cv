@@ -1,1 +1,1 @@
-(Click here to preview)[https://simple-cv-ecru.vercel.app/]
+[Click here to preview](https://simple-cv-ecru.vercel.app/)
