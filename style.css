@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+img {
+    float: right;
+    width: 15vh;
+    margin: 10px;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+.header > h1 {
+    margin-bottom: 5px;
+}
+
+.header > h2 {
+    margin-bottom: 1vh;
+    font-weight: lighter;
+}
+
+.header > hr {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 5px;
+}
+
+/* TENTANG SAYA */
+.tentang-saya {
+    margin-bottom: 3vh;
+}
+
+.tentang-saya > h3 {
+    margin-bottom: 1vh;
+}
+
+/* PENDIDIKAN */
+.pendidikan {
+    margin-bottom: 3vh;
+}
+
+.pendidikan > h3 {
+    margin-bottom: 1vh;
+}
+
+/* PROJECTS */
+.projects {
+    margin-bottom: 3vh;
+}
+
+.projects > h3 {
+    margin-bottom: 1vh;
+}
+
+/* PENGALAMAN */
+.pengalaman {
+    margin-bottom: 3vh;
+}
+
+.pengalaman > h3 {
+    margin-bottom: 1vh;
+}
+
+/* SKILLS */
+.skills {
+    margin-bottom: 3vh;
+}
+
+.skills > h3 {
+    margin-bottom: 1vh;
+}
+
+/* ISI */
+.isi {
+    margin-bottom: 2vh;
+}
+
+.isi > * {
+    margin-bottom: 5px;
+}
+
+.isi > ul > li {
+    margin-bottom: 5px;
+}
+
+
+/* Mobile Device */
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        /* background-color: lightsalmon; */
+
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    }
+
+    /* ipad n tablets */
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        /* background-color: powderblue; */
+
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+    }
+
+    /* laptops */
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        /* background-color: limegreen; */
+
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+
+    }
